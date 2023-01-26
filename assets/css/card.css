@@ -1,0 +1,71 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.mycard {
+    position: relative;
+}
+.mycard h4{
+    font-size: 1.4rem;
+    color:rgb(228, 9, 9);
+    font-weight: 600;
+}
+.mycard  .month h5{
+    /* background-color: rgb(208, 25, 25);
+    color:white;
+    padding:0.5rem; */
+    position: relative;
+}
+.mycard  .month{
+    position: absolute;
+right:0px;
+top:1rem;
+background-color:  rgb(242, 44, 77);
+color:white;
+padding:0.3rem; 
+transform:rotate(-90deg);
+}
+.mycard .month::before{
+    content:"";
+    left:-1rem;
+    /* top:5px; */
+    padding:1rem; 
+    background:  rgb(242, 44, 77);
+    display:block;
+    position: absolute;
+    transform:rotate(45deg);
+
+}
+.fa-map-marker-alt{
+    color:rgb(242, 44, 77);
+}
+.icon i{
+    width:5rem;
+    height:5rem;
+    border-radius:50%;
+    line-height: 5rem;
+    border-right:2px solid  rgb(242, 44, 77);
+    border-bottom:2px dotted  rgb(242, 44, 77);
+}
+
+.doler span{
+    vertical-align: super;
+    padding-right:0.56rem;
+    opacity:0.6;
+}
+.doler  h2{
+    font-size:1.6rem;
+}
+.mycard button{
+    background-color: rgb(242, 44, 77);
+    color:white;
+ margin:auto;
+}
+.mycard button:hover{
+    border:2px solid rgb(242, 44, 77);
+}
+.mycard ul li{
+    font-weight: 600;
+    font-size: 1rem;
+}
